@@ -1,0 +1,22 @@
+{
+  "name": "javari-spirits-api",
+  "version": "1.0.0",
+  "description": "Javari Spirits Product API - 405K+ products",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod",
+    "import": "node scripts/import.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "CR AudioViz AI, LLC",
+  "license": "MIT"
+}
